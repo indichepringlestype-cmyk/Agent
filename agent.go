@@ -1257,7 +1257,7 @@ func main() {
 		CheckForUpdates(githubUpdateURL)
 	}
 
-	controllerAddr := "5.175.192.188:9999"
+	controllerAddr := "5.175.221.107:9999"
 	if len(os.Args) >= 2 {
 		controllerAddr = os.Args[1]
 	}
